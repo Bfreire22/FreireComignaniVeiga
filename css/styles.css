@@ -30,3 +30,25 @@ footer{
     display: flex;
     align-items: flex-end;
 }
+section.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form.l{
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    padding: 150px;
+}
+input{
+    margin-bottom: 10pt;
+}
+button.in{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20pt;
+}
+h1.lo{
+    margin-bottom: 10pt;
+}
