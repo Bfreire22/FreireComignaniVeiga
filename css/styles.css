@@ -52,3 +52,8 @@ button.in{
 h1.lo{
     margin-bottom: 10pt;
 }
+button.re{
+    height: 30px;
+    width: 80%;
+    margin-bottom: 10pt;
+}
