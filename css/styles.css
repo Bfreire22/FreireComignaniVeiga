@@ -32,17 +32,19 @@ footer{
 }
 section.login{
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-form.l{
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     background-color: lightblue;
+    align-items: center;
     padding: 150px;
+    width: 45%;
+    margin: 0 auto;
+}
+h1.re{
+    margin-bottom: 10pt;
 }
 input{
     margin-bottom: 10pt;
+    width: 100%;
 }
 button.in{
     height: 30px;
@@ -54,6 +56,10 @@ h1.lo{
 }
 button.re{
     height: 30px;
-    width: 80%;
+    width: 100%;
     margin-bottom: 10pt;
+    justify-content: center;
+}
+input.ter{
+    width: 15pt;
 }
