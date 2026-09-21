@@ -6,8 +6,8 @@
 header{
     display: flex;
     flex-direction: row;
-    background-color: rgb(0, 0, 135);
-    border: black solid 3pt;
+    background-color: royalblue;
+    
     color: white;
 }
 img.logo{
@@ -43,7 +43,7 @@ footer{
 section.login{
     display: flex;
     flex-direction: column;
-    background-color: rgb(0, 0, 135);
+    background-color: royalblue;
     align-items: center;
     padding: 150px;
     width: 45%;
@@ -91,6 +91,7 @@ article{
     margin: 20pt;
     border: solid black 2pt;
     border-radius: 2px;
+    width: 170px;
 }
 a.det{
     border: solid 1pt black;
@@ -109,8 +110,7 @@ div.sec{
     flex-direction: column;
 }
 nav.iz{
-    background-color: rgb(0, 0, 135);
-    border: solid black 3pt;
+    background-color: royalblue;
     border-top: 0pt;
     height: 100%;
     display: flex;
@@ -123,4 +123,9 @@ li{
 header.rl{
     background-color: white;
     border: 0pt;
+}
+h2{
+    margin: 10px;
+    font-size: xx-large;
+    margin: 0 auto;
 }
