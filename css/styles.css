@@ -93,3 +93,11 @@ a.det{
 body.inde{
     background-color: lightblue;
 }
+main.mainindex{
+    display: flex;
+    flex-direction: row;
+}
+div.sec{
+    display: flex;
+    flex-direction: column;
+}
