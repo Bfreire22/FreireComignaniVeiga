@@ -6,6 +6,9 @@
 header{
     display: flex;
     flex-direction: row;
+    background-color: rgb(0, 0, 135);
+    border: black solid 3pt;
+    color: white;
 }
 img.logo{
     height: 100px;
@@ -23,7 +26,7 @@ button.bus{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 nav.navegacion{
     display: flex;
@@ -34,13 +37,13 @@ nav{
     flex-direction: column;
 }
 footer{
-    display: flex;
-    align-items: flex-end;
+    background-color: black;
+    color: white;
 }
 section.login{
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+    background-color: rgb(0, 0, 135);
     align-items: center;
     padding: 150px;
     width: 45%;
@@ -48,18 +51,19 @@ section.login{
 }
 h1.re{
     margin-bottom: 10pt;
+    color: white;
 }
 input{
     margin-bottom: 10pt;
     width: 100%;
 }
+label{
+    color: white;
+}
 button.in{
     height: 30px;
     width: 100%;
     margin-bottom: 20pt;
-}
-h1.lo{
-    margin-bottom: 10pt;
 }
 button.re{
     height: 30px;
@@ -69,6 +73,9 @@ button.re{
 }
 input.ter{
     width: 15pt;
+}
+label.terminos{
+    color: white;
 }
 img{
     height: 150px;
@@ -87,11 +94,11 @@ article{
 }
 a.det{
     border: solid 1pt black;
-    color: white;
+    color: rgb(0, 0, 135);
     margin: 3px;
 }
 body.inde{
-    background-color: lightblue;
+    background-color: white;
 }
 main.mainindex{
     display: flex;
@@ -100,4 +107,20 @@ main.mainindex{
 div.sec{
     display: flex;
     flex-direction: column;
+}
+nav.iz{
+    background-color: rgb(0, 0, 135);
+    border: solid black 3pt;
+    border-top: 0pt;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    margin: 10px;
+}
+header.rl{
+    background-color: white;
+    border: 0pt;
 }
