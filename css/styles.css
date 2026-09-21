@@ -74,9 +74,6 @@ button.re{
 input.ter{
     width: 15pt;
 }
-label.terminos{
-    color: white;
-}
 img{
     height: 150px;
     width: 100%;
@@ -91,7 +88,7 @@ article{
     margin: 20pt;
     border: solid black 2pt;
     border-radius: 2px;
-    width: 170px;
+    width: 180px;
 }
 a.det{
     border: solid 1pt black;
