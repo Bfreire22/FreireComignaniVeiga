@@ -72,6 +72,7 @@ input.ter{
 }
 img{
     height: 150px;
+    width: 100%;
 }
 section{
     display: flex;
@@ -83,4 +84,13 @@ article{
     margin: 20pt;
     border: solid black 2pt;
     border-radius: 2px;
+}
+a.det{
+    border: solid 1pt black;
+    
+    color: white;
+    margin: 3px;
+}
+body.inde{
+    background-color: lightblue;
 }
