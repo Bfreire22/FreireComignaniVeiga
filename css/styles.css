@@ -126,3 +126,31 @@ h2{
     font-size: xx-large;
     margin: 0 auto;
 }
+
+main.maindetalle {
+padding: 20px;
+display: flex;
+flex-direction: column;
+}
+
+img.imgdetalle {
+    width: 300px;
+    height: 200px;
+}
+
+main.maindetalle p {
+    margin: 5px;
+    font-size: larger;
+}
+
+main.maindetalle h4 {
+    margin: 5px;
+    font-size: 25px;
+}
+
+section.reviews {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+
+}
