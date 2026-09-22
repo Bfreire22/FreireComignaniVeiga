@@ -7,7 +7,34 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    <header>
+        <nav class="navegacion">
+            <a href="./login.html">Login</a>/
+            <a href="./registro.html">Register</a>
+        </nav>
+        <form class="busqueda" action="./resultados.html" method="get">
+            <input type="text" name="busqueda" value="" placeholder="Tu busqueda">
+            <button class="bus" type="submit">Buscar</button>
+        </form>
         <a href="index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
+    </header>
+    <section>
+ <main>
     <h1>Resultados de busqueda</h1>
+    <p>producto buscado:Tablet Samsung Galaxy A11</p>
+    
+    <article>
+        <img src="./img/tabletsamsung1.png" alt="tablet">
+        <h3>Tablet Samsung Galaxy A11</h3>
+        <p>Marca: Samsung <br>
+            Almacenamiento: 64GB <br>
+            RAM: 4GB <br>
+            Color: gray
+        </p>
+        <h4>$359.999</h4>
+        <a class="det" href="./detalle.html">Ver detalle</a>
+    </article>
+</section>
+</main>
 </body>
 </html>
