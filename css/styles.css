@@ -127,37 +127,38 @@ h2{
     margin: 0 auto;
 }
 
-main.maindetalle {
+.maindetalle {
 padding: 20px;
 display: flex;
 flex-direction: column;
 }
 
-img.imgdetalle {
+.imgdetalle {
     width: 300px;
     height: 300px;
     margin: 0 auto;
 }
 
-main.maindetalle p {
+.maindetalle p {
     margin: 5px;
     font-size: larger;
     font-weight: bold;
 
 }
 
-main.maindetalle h4 {
+.maindetalle h4 {
     margin: 5px;
     font-size: 25px;
 }
 
-section.reviews {
+.reviews {
     display: flex;
     flex-direction: row;
     margin: 30px;
 
 }
 
-main.maindetalle li {
+.maindetalle li {
  font-weight: bold;
 }
+
