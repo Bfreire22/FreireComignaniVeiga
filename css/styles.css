@@ -101,6 +101,7 @@ body.inde{
 main.mainindex{
     display: flex;
     flex-direction: row;
+    padding-left: 20px;
 }
 div.sec{
     display: flex;
@@ -112,10 +113,13 @@ nav.iz{
     height: 100%;
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
+       
 }
 
 li{
-    margin: 10px;
+    margin: 15px;
+    list-style: none;
 }
 header.rl{
     background-color: white;
