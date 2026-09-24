@@ -15,7 +15,7 @@ header{
     
     color: white;
 }
-img.logo{
+img.logo{ 
     height: 100px;
     width: 170px;
 }
@@ -173,29 +173,3 @@ flex-direction: column;
 .maindetalle li {
  font-weight: bold;
 }
-<<<<<<< HEAD
-
-=======
-a.ln{
-    margin: 5pt;
-    border: 2pt solid paleturquoise;
-    background-color: white;
-    height: 25px;
-    color: black;
-}
-@media(max-width: 480px){
-main.mainindex{
-    display: flex;
-    flex-direction: column;
-}
-nav.iz{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-}
-section.login{
-    padding: 50px;
-}
-}
->>>>>>> 601cfeb875edc2fd1820e5e4c1ed289cad1c9bab
