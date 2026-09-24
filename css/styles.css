@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+ul,
+ol,
+li{
+    list-style-type: none;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -89,10 +94,11 @@ article{
     border: solid black 2pt;
     border-radius: 2px;
     width: 180px;
+    padding: 10px;
 }
 a.det{
     border: solid 1pt black;
-    color: rgb(0, 0, 135);
+    color: royalblue;
     margin: 3px;
 }
 body.inde{
@@ -113,8 +119,9 @@ nav.iz{
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-       
+    padding: 20px;
+    margin-right: 50px;
+
 }
 
 li{
@@ -129,6 +136,7 @@ h2{
     margin: 10px;
     font-size: xx-large;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .maindetalle {
@@ -165,4 +173,29 @@ flex-direction: column;
 .maindetalle li {
  font-weight: bold;
 }
+<<<<<<< HEAD
 
+=======
+a.ln{
+    margin: 5pt;
+    border: 2pt solid paleturquoise;
+    background-color: white;
+    height: 25px;
+    color: black;
+}
+@media(max-width: 480px){
+main.mainindex{
+    display: flex;
+    flex-direction: column;
+}
+nav.iz{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+section.login{
+    padding: 50px;
+}
+}
+>>>>>>> 601cfeb875edc2fd1820e5e4c1ed289cad1c9bab
