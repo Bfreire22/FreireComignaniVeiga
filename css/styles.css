@@ -169,6 +169,10 @@ a.ln{
     height: 20pt;
     border: solid 2pt lightblue
 }
+body.inde{
+    background-image: url(../img/fondo\ pagina.png);
+    
+}
 @media(max-width: 480px){
 main.mainindex{
     display: flex;
