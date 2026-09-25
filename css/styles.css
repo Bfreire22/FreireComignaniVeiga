@@ -100,13 +100,9 @@ a.det{
     color: royalblue;
     margin: 3px;
 }
-body.inde{
-    background-color: white;
-}
 main.mainindex{
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
 }
 div.sec{
     display: flex;
@@ -114,7 +110,6 @@ div.sec{
 }
 nav.iz{
     background-color: royalblue;
-    border-top: 0pt;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -168,5 +163,9 @@ flex-direction: column;
  font-weight: bold;
 }
 a.ln{
-    margin-right: 10pt;
+    margin: 10pt;
+    background-color: white;
+    color: black;
+    height: 20pt;
+    border: solid 2pt lightblue
 }
