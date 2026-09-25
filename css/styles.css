@@ -169,7 +169,7 @@ a.ln{
     height: 20pt;
     border: solid 2pt lightblue
 }
-@media(max-width: 768px){
+@media(max-width: 480px){
 main.mainindex{
     display: flex;
     flex-direction: column;
@@ -182,5 +182,15 @@ nav.iz{
 }
 section.login{
     padding: 50px;
+    width: 100%;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+h1.res{
+    margin-left: 70px;
 }
 }
