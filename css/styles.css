@@ -36,10 +36,6 @@ nav.navegacion{
     display: flex;
     flex-direction: row;
 }
-nav{
-    display: flex;
-    flex-direction: column;
-}
 footer{
     background-color: black;
     color: white;
@@ -116,7 +112,6 @@ nav.iz{
     padding: 20px;
     margin-right: 50px;
 }
-
 li{
     margin: 15px;
     list-style: none;
@@ -130,24 +125,20 @@ h2{
     margin: 0 auto;
     margin-top: 20px;
 }
-
 .maindetalle {
 padding: 20px;
 display: flex;
 flex-direction: column;
 }
-
 .imgdetalle {
     width: 300px;
     height: 300px;
     margin: 0 auto;
 }
-
 .maindetalle p {
     margin: 5px;
     font-size: larger;
     font-weight: bold;
-
 }
 .maindetalle h4 {
     margin: 5px;
@@ -157,7 +148,6 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     margin: 30px;
-
 }
 .maindetalle li {
  font-weight: bold;
@@ -196,5 +186,9 @@ li{
 }
 h1.res{
     margin-left: 70px;
+}
+section{
+    display: flex;
+    justify-content: center;
 }
 }
