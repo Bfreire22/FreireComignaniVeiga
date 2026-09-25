@@ -12,7 +12,6 @@ header{
     display: flex;
     flex-direction: row;
     background-color: royalblue;
-    
     color: white;
 }
 img.logo{ 
@@ -121,7 +120,6 @@ nav.iz{
     flex-direction: column;
     padding: 20px;
     margin-right: 50px;
-
 }
 
 li{
@@ -130,7 +128,6 @@ li{
 }
 header.rl{
     background-color: white;
-    border: 0pt;
 }
 h2{
     margin: 10px;
@@ -157,19 +154,19 @@ flex-direction: column;
     font-weight: bold;
 
 }
-
 .maindetalle h4 {
     margin: 5px;
     font-size: 25px;
 }
-
 .reviews {
     display: flex;
     flex-direction: row;
     margin: 30px;
 
 }
-
 .maindetalle li {
  font-weight: bold;
+}
+a.ln{
+    margin-right: 10pt;
 }
