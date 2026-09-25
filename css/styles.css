@@ -183,4 +183,8 @@ li{
 h1.res{
     margin-left: 70px;
 }
+section{
+    display: flex;
+    justify-content: center;
+}
 }
