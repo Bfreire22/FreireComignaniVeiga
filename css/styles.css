@@ -193,4 +193,11 @@ section{
     display: flex;
     justify-content: center;
 }
+header{
+    display: flex;
+    flex-direction: column;
+}
+img.logo{
+    margin-left: 100px;
+}
 }
