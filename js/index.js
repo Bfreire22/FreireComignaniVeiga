@@ -20,4 +20,7 @@ fetch(url)
 })
 .then(function(data){
 let category = category.data
+ for(let i = 0; i < category.length; i++){
+    
+ }
 })
