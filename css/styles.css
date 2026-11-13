@@ -165,11 +165,6 @@ body.inde{
 body.fdeta{
     background-image: url(../img/fondo\ pagina.png); background-repeat: no-repeat; background-size: 260pc;
 }
-@media(max-width: 480px){
-main.mainindex{
-    display: flex;
-    flex-direction: column;
-}
 nav.iz{
     padding: 0;
     margin: 0;
@@ -199,5 +194,11 @@ header{
 }
 img.logo{
     margin-left: 100px;
+}
+
+@media(max-width: 480px){
+main.mainindex{
+    display: flex;
+    flex-direction: column;
 }
 }
