@@ -7,7 +7,17 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-        <header class="rl"><a href="index.html"><img class="logo" src="./img/logo.png" alt="logo"></a></header>
+        <header>
+    <nav class="navegacion">
+        <a class="ln" href="./login.html">Login</a>
+        <a class="ln" href="./registro.html">Register</a>
+    </nav>
+    <form class="busqueda" action="./resultados.html" method="get">
+        <input class="buscador" type="text" name="busqueda" value="" placeholder="Tu busqueda">
+        <button class="bus" type="submit">Buscar</button>
+    </form>
+    <a href="index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
+</header>
         <section class="login">
             <h1 class="re">Register</h1>
         <form class="l" action="./login.html" method="get">
