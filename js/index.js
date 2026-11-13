@@ -13,3 +13,11 @@ if(buscador.value.length < 3){
     this.submit()
 }
 })
+let url = "https://dummyjson.com/products/category-list"
+fetch(url)
+.then (function(res){
+    return res.json()
+})
+.then(function(data){
+let category = category.data
+})
