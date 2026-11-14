@@ -14,13 +14,20 @@ if(buscador.value.length < 3){
 }
 })
 let url = "https://dummyjson.com/products/category-list"
+let ul = document.querySelector("ul.izquierda")
 fetch(url)
-.then (function(res){
-    return res.json()
+.then (function(response){
+    return response.json()
 })
 .then(function(data){
-let category = category.data
- for(let i = 0; i < category.length; i++){
-    
+
+ for(let i = 0; i < data.length; i++){
+    ul.innerHTML +=
+    `
+     <li><a href="./category.html">${data[i]}</a></li>
+    `
  }
 })
+ .catch(function(error){
+    console.log("el error es" + error)
+ } )
