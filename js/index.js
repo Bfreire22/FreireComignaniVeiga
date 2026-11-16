@@ -26,5 +26,29 @@ fetch(url)
  }
 })
  .catch(function(error){
-    console.log("el error es" + error)
+    console.log("El error es" + error)
  } )
+let section = document.querySelector("section");
+ fetch('https://dummyjson.com/products')
+ .then(function(response){
+    return response.json()
+ })
+.then(function(data){
+    let products = data.products;
+for(let i = 0; i < products.length; i++){
+section.innerHTML +=
+`
+<article>
+                    <img src="${products[i].images}" alt="imagenesapi">
+                    <h3>${products[i].title}</h3>
+                    <p>${products[i].description}</p>
+                    <h4>${products[i].price}</h4>
+                    <a href="./detalle.html">Ver detalle</a>
+                </article> 
+`
+}
+
+})
+.catch(function(error){
+    console.log("El error es: " + error)
+})
