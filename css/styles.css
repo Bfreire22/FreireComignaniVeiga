@@ -173,7 +173,8 @@ nav.iz{
 }
 section.login{
     padding: 50px;
-    width: 100%;
+    width: 1550px;
+    height: 500px;
 }
 li{
     display: flex;
@@ -192,10 +193,14 @@ header{
     display: flex;
     flex-direction: column;
 }
-img.logo{
-    margin-left: 100px;
+article.artcategory{
+    margin: 20pt;
+    border: solid black 2pt;
+    border-radius: 2px;
+    width: 180px;
+    padding: 10px;
+    height: 400px;
 }
-
 @media(max-width: 480px){
 main.mainindex{
     display: flex;
