@@ -33,32 +33,33 @@ fetch(url)
     })
 
 let div = document.querySelector(".detalleshtml")
+let locatio = location.search
+let querystring = new URLSearchParams(locatio)
+let id = querystring.get("id")
 fetch(`https://dummyjson.com/products/${id}`)
 
 .then(function(response) {
     return response.json()
 })
 .then(function(data){
-let products = data.products
-    for(let i = 0; i < products.length; i++){
         div.innerHTML +=
         `
-                <h1>${products[i].title}</h1>
-                <img src="${products[i].thumbnail}" alt="imagenpto5">
-                <p>${products[i].title}</p>
-                <p>${products[i].brand}</p>
-                <h4>${products[i].description}</h4>
-                <p>${products[i].price}</p>
-                <a href="./category.html?id=${products[i].category}">Categoria</a>
-                <p>${products[i].stock}</p>
+                <h1>${data.title}</h1>
+                <img src="${data.thumbnail}" alt="imagenpto5">
+                <p>${data.title}</p>
+                <p>${data.brand}</p>
+                <h4>${data.description}</h4>
+                <p>${data.price}</p>
+                <a href="./category.html?id=${data.category}">Categoria</a>
+                <p>${data.stock}</p>
                 <ul>
-                    <li>${products[i].tags}</li>
+                    <li>${data.tags}</li>
                 </ul>
 
 
 
         `
-    }
+    
 })
 .catch(function(error){
     console.log("El error es: " + error)
