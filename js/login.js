@@ -17,6 +17,22 @@ let formlogin = document.querySelector("form.l");
 let mail = document.querySelector("input.mail");
 let pass = document.querySelector("input.contraseña");
 
-formlogin.addEventListener("sumbit", function(){
+formlogin.addEventListener("submit", function(event){
+    event.preventDefault();
 
+    if (mail.value == ""){
+    alert("El campo de mail es obligatorio");
+
+    }else if(pass.value == ""){
+    alert("El campo contraseña es obligatorio");
+   
+
+    }else if(pass.value.length < 6) {
+        alert("La contraseña debe tener al menos 6 caracteres");
+
+   
+    }else {
+        localStorage.setItem('email', mail.value);
+        location.href = "./index.html";
+    }
 });
