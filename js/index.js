@@ -44,7 +44,7 @@ fetch('https://dummyjson.com/products/category/smartphones')
                     <h3>${products[i].title}</h3>
                     <p>${products[i].description}</p>
                     <h4>${products[i].price}</h4>
-                    <a href="./detalle.html?=${products[i].id}">Ver detalle</a>
+                    <a href="./detalle.html?id=${products[i].id}">Ver detalle</a>
                 </article> 
 `
         }
