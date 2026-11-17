@@ -13,3 +13,10 @@ formulario.addEventListener("submit", function (event) {
         this.submit()
     }
 })
+let formlogin = document.querySelector("form.l");
+let mail = document.querySelector("input.mail");
+let pass = document.querySelector("input.contraseña");
+
+formlogin.addEventListener("sumbit", function(){
+
+});
