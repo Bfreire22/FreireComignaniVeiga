@@ -201,6 +201,9 @@ article.artcategory{
     padding: 10px;
     height: 400px;
 }
+div.detalleshtml{
+    
+}
 @media(max-width: 480px){
 main.mainindex{
     display: flex;
