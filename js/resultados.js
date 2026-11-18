@@ -31,3 +31,35 @@ fetch(url)
     .catch(function (error) {
         console.log("el error es" + error)
     })
+    let loca = location.search
+    let obuscado = new URLSearchParams(loca)
+    let loqhayqbuscar = obuscado.get("busqueda")
+    let busection = document.querySelector("section.loqbuscar")
+    let turesultado = document.querySelector("h1.res")
+    turesultado.innerText = "Resultado de busqueda para: " + loqhayqbuscar
+    fetch(`https://dummyjson.com/products/search?q=${loqhayqbuscar}`)
+    .then(function(response){
+        return response.json()
+    } )
+    .then(function(data){
+        let products = data.products 
+        if(products.length == 0){
+            alert("no hay resultados para el termino: " + loqhayqbuscar)
+        }else{
+        for(let i = 0; i<products.length; i++){
+            busection.innerHTML +=
+             ` 
+             <article>
+                    <img src="${products[i].thumbnail}" alt="img">
+                    <h3>${products[i].title}</h3>
+                    <p>${products[i].description}</p>
+                    <h4>${products[i].price}</h4>
+                    <a href="./detalle.html?id=${products[i].id}">Ver detalle</a>
+                </article>
+             `
+        }}
+    } )
+    .catch(function(error){
+        console.log("el error es: " + error)
+    }
+)
