@@ -4,9 +4,10 @@ if (mail == null) {
 
 
 } else {
-    let bienvenido = document.querySelector(".bienvenido")
-    bienvenido.innerHTML = "bienvenido: " + mail;
+    let nav = document.querySelector(".navegacion")
+    let url = '<a href="./login.html">Logout</a>';
     
+    nav.innerHTML = "Bienvenido: " + mail + " " + url;
 }
 
 
