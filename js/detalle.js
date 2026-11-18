@@ -24,7 +24,7 @@ fetch(url)
         for (let i = 0; i < data.length; i++) {
             ul.innerHTML +=
                 `
-     <li><a href="./category.html">${data[i]}</a></li>
+     <li><a href="./category.html?category=${data[i]}">${data[i]}</a></li>
     `
         }
     })
@@ -38,12 +38,12 @@ let querystring = new URLSearchParams(locatio)
 let id = querystring.get("id")
 fetch(`https://dummyjson.com/products/${id}`)
 
-.then(function(response) {
-    return response.json()
-})
-.then(function(data){
+    .then(function (response) {
+        return response.json()
+    })
+    .then(function (data) {
         div.innerHTML +=
-        `
+            `
                 <h1>${data.title}</h1>
                 <img src="${data.thumbnail}" alt="imagenpto5">
                 <p>${data.title}</p>
@@ -59,8 +59,8 @@ fetch(`https://dummyjson.com/products/${id}`)
 
 
         `
-    
-})
-.catch(function(error){
-    console.log("El error es: " + error)
-})
+
+    })
+    .catch(function (error) {
+        console.log("El error es: " + error)
+    })

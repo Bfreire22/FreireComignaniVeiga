@@ -24,7 +24,7 @@ fetch(url)
         for (let i = 0; i < data.length; i++) {
             ul.innerHTML +=
                 `
-     <li><a href="./category.html">${data[i]}</a></li>
+     <li><a href="./category.html?category=${data[i]}">${data[i]}</a></li>
     `
         }
     })
