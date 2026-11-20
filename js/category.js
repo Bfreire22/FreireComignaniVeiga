@@ -52,7 +52,7 @@ fetch(url2)
                 <h3>${products[i].title}</h3>
                 <p><${products[i].description}/p>
                 <h4>${products[i].price}</h4>
-                <a href="./detalle.html?id=${products[i].id}">Ver detalle</a>
+                <a class="det" href="./detalle.html?id=${products[i].id}">Ver detalle</a>
             </article>
     `
     })

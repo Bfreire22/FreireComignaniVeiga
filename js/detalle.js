@@ -50,10 +50,10 @@ fetch(`https://dummyjson.com/products/${id}`)
                 <p>${data.brand}</p>
                 <h4>${data.description}</h4>
                 <p>${data.price}</p>
-                <a href="./category.html?id=${data.category}">Categoria</a>
-                <p>${data.stock}</p>
+                <a class="det" href="./category.html?id=${data.category}">Ver categoria</a>
+                <p>Stock: ${data.stock}</p>
                 <ul>
-                    <li>${data.tags}</li>
+                    <li>Tags: ${data.tags}</li>
                 </ul>
 
 

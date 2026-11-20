@@ -90,6 +90,7 @@ article{
     border-radius: 2px;
     width: 180px;
     padding: 10px;
+    height: 450px;
 }
 a.det{
     border: solid 1pt black;
@@ -202,8 +203,12 @@ article.artcategory{
     height: 400px;
 }
 div.detalleshtml{
-    
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
+
 @media(max-width: 480px){
 main.mainindex{
     display: flex;
